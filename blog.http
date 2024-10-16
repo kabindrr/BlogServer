@@ -1,0 +1,23 @@
+# fetch all tasks
+GET http://localhost:9000/api/v1/user
+
+
+### Post new user
+POST http://localhost:9000/api/v1/auth/signup
+Content-Type: application/json
+
+{
+    "username":"Kabindra Ranabhat",
+    "email":"d@gmail.com",
+    "password":"as",
+    "confirmpassword":"as"
+}
+
+###login user
+POST http://localhost:9000/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "email":"a@gmail.com",
+    "password":"as"
+}
